@@ -1,4 +1,4 @@
-# 🎧 Hand DJ
+# 🎧 Gesture Music Player
 
 A music player you control with your hands, built in a week-long AI workshop.
 
@@ -9,12 +9,15 @@ It works in two stages:
 
 ## Get started
 
-1. Download this project: click the green **Code** button, then **Download ZIP**, and unzip it.
+1. Download this project from [github.com/deepakandeli/Gesture-Music-Player](https://github.com/deepakandeli/Gesture-Music-Player): click the green **Code** button, then **Download ZIP**, and unzip it.
+   (Or with Git: `git clone https://github.com/deepakandeli/Gesture-Music-Player.git`)
 2. Open the folder in **VS Code**.
 3. Right-click `index.html` and choose **Open with Live Server** (install the *Live Server* extension if you don't see it).
 4. Press **Play**. 🎶
 
 > You can also just double-click `index.html`, but Live Server is best once the camera is involved.
+>
+> No install at all? Try the live version: [deepakandeli.github.io/Gesture-Music-Player](https://deepakandeli.github.io/Gesture-Music-Player) (works once GitHub Pages is turned on).
 
 ## Controls
 
@@ -73,7 +76,7 @@ function onGesture(gesture) {
 ## Project map
 
 ```
-hand-dj/
+Gesture-Music-Player/
 ├── index.html      the page
 ├── css/style.css   how it looks
 ├── js/config.js    ⚙️ your settings (music style, Client ID)
